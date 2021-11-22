@@ -1,0 +1,1 @@
+const parseMessage = (origin, message) => `${origin}: ${message}`
