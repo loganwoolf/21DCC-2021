@@ -15,5 +15,9 @@ const someToggle2 = {
   isOn:true
 }
 
+console.log('\nshould make true')
 console.log(switchToggle(someToggle1))
+console.log('\nshould make false again')
+console.log(switchToggle(someToggle1))
+console.log('\nshould make false')
 console.log(switchToggle(someToggle2))
