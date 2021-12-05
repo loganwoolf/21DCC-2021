@@ -1,41 +1,24 @@
+// default code
 
-//input
-const missionDate = "2021-12-12"
-const platformList = [
+const checkAllGauges = (gaugeList) => {
+  // Code here!
+}
+
+// input
+
+const gaugeList = [
   {
-    name:"Platform A",
-    bookDate:"2021-12-11"
+    current:0.4,
+    min:0.1,
+    max:0.9
   },
   {
-    name:"Platform B",
-    bookDate:undefined
-  },
-  {
-    name:"Platform C",
-    bookDate:undefined
-  },
-] 
-
-
-//output
-const platformList = [
-    {
-      name:"Platform A",
-      bookDate:"2021-12-11"
-    },
-    {
-      name:"Platform B",
-      bookDate:"2021-12-12"
-    },
-    {
-      name:"Platform C",
-      bookDate:undefined
-    },
-  ] 
-
-  //default code
-
-const bookFreePlatform = (platformList, missionDate) => {
-    // Code here!
+    current:1.2,
+    min:0.1,
+    max:0.6
   }
-  
+]
+
+// output
+
+false
