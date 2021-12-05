@@ -1,6 +1,6 @@
 function switchAllTogglesOn (toggleList) {
   for (let toggle of toggleList) {
-    !toggle.isOn ? toggle.isOn = !toggle.isOn : undefined
+    toggle.isOn = true
   }
   return toggleList
 }
