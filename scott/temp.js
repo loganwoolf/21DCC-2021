@@ -1,28 +1,24 @@
 
-const timeRemaining = (launchDate, missionName, fakeToday) => {
-	const today = fakeToday || new Date() // Do not alter this line!
-  
-	// Code here!
+const getAverageSpeed = (firstPosition, secondPosition) => {
+	// code here!
   }
-  
+   
 
 // input
-const launchDate = "2021-12-12"
-const fakeToday = "2021-12-01"
-const missionName = "Moon visit"
+const firstPosition = {
+    time: 1637074462,
+    altitude: 1100
+  }
+  const secondPosition = {
+    time: 1637074558,
+    altitude: 2200
+  }
+    
     
 // output
-{
-	missionName = "Moon visit",
-	daysRemaining = 11
-  }
-
+11.5
+	
 // Test Code
 
-const launchDay = new Date(launchDate)
-let launchTime = launchDay.getTime()  
-console.log(launchTime)
 
-const fakeDate = new Date(fakeToday)
-let todayTime = fakeDate.getTime()
-console.log(todayTime)
+	
