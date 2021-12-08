@@ -1,23 +1,35 @@
 
-const getAverageSpeed = (firstPosition, secondPosition) => {
-	// code here!
-  }
+const switchSpecificToggle = (toggleList, specificToggle) => {
+  // Code here!
+}
+
    
 
 // input
-const firstPosition = {
-    time: 1637074462,
-    altitude: 1100
+const toggleList = [
+  {
+    name: "toggleA",
+    isOn: false
+    }, 
+  {
+    name: "toggleB",
+    isOn: true
   }
-  const secondPosition = {
-    time: 1637074558,
-    altitude: 2200
-  }
-    
+]
+const specificToggle = "toggleA"  
     
 // output
-11.5
-	
+[
+  {
+    name: "toggleA",
+    isOn: true
+  }, 
+  {
+    name: "toggleB",
+    isOn: true
+  }
+]
+
 // Test Code
 
 
