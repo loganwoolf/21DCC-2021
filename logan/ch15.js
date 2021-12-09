@@ -14,7 +14,7 @@ const timeRemaining = (launchDate, missionName, fakeToday) => {
   
   const launch = new Date(launchDate)
   launch.setHours(24)
-  const daysToLaunch = Math.round((launch - today) / 3600000 / 24)
+  const daysToLaunch = (launch - today) / 3600000 / 24
   return {
     missionName: missionName,
     daysRemaining: daysToLaunch
@@ -22,7 +22,7 @@ const timeRemaining = (launchDate, missionName, fakeToday) => {
 }
 
 console.log(
-  timeRemaining('2022-01-10'
+  timeRemaining('2022-02-10'
   , 'test launch'
   // , new Date('2021-12-06')
   )
