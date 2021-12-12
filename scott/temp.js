@@ -1,27 +1,39 @@
-//input 
-const speed = 40
-  const missionData = {
+//input
+
+const exchanges = [
+  {origin:"MC", message:"So how is it out there?"},
+  {origin:"Shuttle", message:"Oh it's pretty nice!"},
+  {origin:"MC", message:"Did you like the challenges?"},
+]
+   
+const missionData = {
+  astro:["...","..."], 
+  bio:["..."], 
+  physics:["..."]
+}
+   
+//output
+
+{
+  transcript:
+  [
+    "MC: So how is it out there?",
+    "Shuttle: Oh it's pretty nice!",
+    "MC: Did you like the challenges?"
+  ],
+  missionData:{
     astro:["...","..."], 
     bio:["..."], 
     physics:["..."]
   }
+}
 
-  const checks = {
-    maxSpeed:50,
-    minSpeed:20,
-    dataEntries:{
-      astro:3,
-      bio:1,
-      physics:1
-    }
-  }
-   
-  
-//output
-false // Not the same amount of entries
 
-//original code 
 
-const confirmReentryPlans = (speed, missionData, checks) => {
+//original code
+
+// Add parseMessage here if you want!
+
+const parseMissionSummary = (exchanges, missionData) => {
   // Code here!
 }
